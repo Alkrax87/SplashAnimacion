@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#4786A3"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/bnb"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#BFAD77"
+                android:scaleType="centerInside"
+                android:onClick="bnb"
+                app:srcCompat="@drawable/bnb" />
+
+            <ImageButton
+                android:id="@+id/xml"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#372C2C"
+                android:scaleType="centerInside"
+                android:onClick="xml"
+                app:srcCompat="@drawable/xml" />
+
+            <ImageButton
+                android:id="@+id/avax"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#551F1D"
+                android:scaleType="centerInside"
+                android:onClick="avax"
+                app:srcCompat="@drawable/avax" />
+
+            <ImageButton
+                android:id="@+id/atom"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#6588B5"
+                android:scaleType="fitCenter"
+                android:onClick="atom"
+                app:srcCompat="@drawable/atom" />
+
+            <ImageButton
+                android:id="@+id/ada"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#D8D8D8"
+                android:scaleType="centerInside"
+                android:onClick="ada"
+                app:srcCompat="@drawable/ada" />
+
+            <ImageButton
+                android:id="@+id/xtz"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#B0E6ED"
+                android:scaleType="centerInside"
+                android:onClick="xtz"
+                app:srcCompat="@drawable/xtz" />
+
+            <ImageButton
+                android:id="@+id/btc"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#DAD09D"
+                android:scaleType="centerInside"
+                android:onClick="btc"
+                app:srcCompat="@drawable/btc" />
+
+            <ImageButton
+                android:id="@+id/eth"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#D8D8D8"
+                android:scaleType="centerInside"
+                android:onClick="eth"
+                app:srcCompat="@drawable/eth" />
+
+            <ImageButton
+                android:id="@+id/eos"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#858585"
+                android:scaleType="centerInside"
+                android:onClick="eos"
+                app:srcCompat="@drawable/eos" />
+
+            <ImageButton
+                android:id="@+id/rune"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#009688"
+                android:scaleType="centerInside"
+                android:onClick="rune"
+                app:srcCompat="@drawable/rune" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
